@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Task 1
+ */
+
 define('PI', 3.14159);
 
 function calculateCircleArea($radius) {
@@ -10,7 +14,7 @@ function calculateCircleArea($radius) {
 echo calculateCircleArea(5);
 
 /**
- * 
+ * Task 2
  */
 
  echo '<br>';
@@ -22,7 +26,7 @@ $age = 25;
 echo "Меня зовут " . $name . ", мне ". $age ." лет, и я программист.";
 
 /**
- * 
+ * Task 3
  */
 
 echo '<br>';
@@ -38,7 +42,7 @@ function calculate($a, $b) {
 echo calculate(10, 5);
 
 /**
- * 
+ * Task 4
  */
 
  echo '<br>';
@@ -48,7 +52,6 @@ define('LENGTH', 10);
 define('WIDTH', 5);
 
 function calculateRectangle() {
-    // Ваш код здесь
     return "Площадь прямоугольника : " . LENGTH * WIDTH . '<br>' . 
     "Периметр прямоугольника : " . 2 * (LENGTH + WIDTH);
 }
@@ -56,14 +59,13 @@ function calculateRectangle() {
 echo calculateRectangle(); 
 
 /**
- * 
+ * Task 5
  */
 
  echo '<br>';
  echo '<br>';
 
  function mathOperations($a, $b) {
-    // Ваш код здесь
     return "Сумма чисел $a и $b = " . $a + $b . " <br>
         Разность чисел $a и $b = " . $a - $b . " <br>
         Произведение чисел $a и $b = " . $a * $b . " <br>
